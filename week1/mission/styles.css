@@ -1,6 +1,15 @@
+.content {
+    width: 600px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
 h1, h2 {
     text-align: center;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -8,18 +17,15 @@ h2 {
     text-decoration: underline;
     text-decoration-color: #006EB6;
     font-size: 20px;
+    margin-bottom: 7%;
 }
 
 p {
     text-align: left;
 }
 
-.content {
-    width: 600px;
-    font-family: 'Times New Roman';
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0 auto;
+ol li {
+    padding: 1.5%;
 }
 
 .logo {
