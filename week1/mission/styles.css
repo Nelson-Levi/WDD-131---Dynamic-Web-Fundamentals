@@ -14,10 +14,13 @@ h1, h2 {
 
 h2 {
     color: #006EB6;
-    text-decoration: underline;
     text-decoration-color: #006EB6;
     font-size: 20px;
-    margin-bottom: 7%;
+    margin-bottom: 1px;
+}
+
+hr {
+    margin-top: 0px;
 }
 
 p {
