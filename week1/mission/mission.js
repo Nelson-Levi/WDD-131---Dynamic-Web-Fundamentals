@@ -1,5 +1,3 @@
-document.getElementById("theme").addEventListener('change', changeTheme);
-
 const themeSelector = document.querySelector("select");// replace with code to select dropdown element out of the HTML (Hint: document.querySelector)
 function changeTheme() {
 // check to see what the current value of our select is.
