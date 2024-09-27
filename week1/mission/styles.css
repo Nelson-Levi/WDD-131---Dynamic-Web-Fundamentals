@@ -1,3 +1,12 @@
+.dark {
+    background-color: #333;
+    color: #faf9f6cd;
+}
+
+.dark h2 {
+    color: #4f9acf
+}
+
 .content {
     width: 600px;
     font-family: 'Times New Roman';

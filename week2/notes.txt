@@ -1,0 +1,10 @@
+JAVASCRIPT VARIABLE TYPES
+
+1. String - text
+2. Undefined
+3. Boolean/Bool - True/False
+4. Char - Single Character
+5. Float/Double - Decimal
+6. Int - Whole number
+7. Array - List of things
+8. Object - {} - Can store things like functions
