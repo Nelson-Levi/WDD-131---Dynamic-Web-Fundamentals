@@ -86,6 +86,13 @@ figure {
   padding: 1%;
 }
 
+@media (max-width: 700px) {
+    nav a {
+        display: block;
+        text-align: center;
+    }
+}
+
 @media (min-width: 700px) {
   .gallery {
     display: grid;
