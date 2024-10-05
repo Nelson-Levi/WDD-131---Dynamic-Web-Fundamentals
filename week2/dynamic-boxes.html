@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Boxes</title>
+    <style>
+        #boxContainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+            background-color: #f0f0f0;
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Click the Button to Add a Box!</h1>
+    <button id="addBoxBtn">Add Box</button>
+
+    <div id="boxContainer"></div>
+
+    <script>
+        // Function to generate a random color
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Get the button and container elements
+        let addBoxBtn = document.getElementById("addBoxBtn");
+        let boxContainer = document.getElementById("boxContainer");
+
+        // Add an event listener to the button
+        addBoxBtn.addEventListener("click", function() {
+            // Create a new box
+            let newBox = document.createElement("div");
+            newBox.className = "box";
+            newBox.style.backgroundColor = getRandomColor();
+
+            // Append the new box to the container
+            boxContainer.appendChild(newBox);
+        });
+    </script>
+
+</body>
+</html>
