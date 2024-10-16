@@ -65,7 +65,7 @@ function viewHandler(event) {
 	// get the src attribute from that element and 'split' it on the "_"
     let imageSource = clickedElement.src;
     let parts = imageSource.split("_");
-	// construct the new image file name by adding "-full.jpeg" to the first part of the array from the previous step
+	// construct the new image file name by adding "_full.jpeg" to the first part of the array from the previous step
     let fullImage = parts[0] + "_full.jpeg";
     let altText = clickedElement.alt;
 
