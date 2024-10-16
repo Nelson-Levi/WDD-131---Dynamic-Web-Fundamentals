@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+
+    <ul id="list">
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+    </ul>
+
+    <script>
+
+        const obj = {
+            name: 'Levi Nelson',
+            getName: () => {
+                return "Levi Nelson by functions"
+            }
+        }
+
+        console.log(obj.getName())
+
+        const button = document.getElementById("btn");
+        button.addEventListener('click', handleClick);
+
+        // button.onclick = handleClick
+        // <button onclick="handleClick()">Click Me</button>
+
+        function handleClick() {
+            console.log('Click worked!');
+        }
+
+        for (let i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        const list = document.getElementById('list');
+
+        console.log(list.children);
+
+        list.children;
+
+        for (let i = 0; i < list.children.length; i++) {
+            const child = list.children[i]
+
+            console.log(child);
+        }
+
+    </script>
+</body>
+</html>

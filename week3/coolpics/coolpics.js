@@ -62,9 +62,9 @@ function viewerTemplate(pic, alt) {
 function viewHandler(event) {
 	// create a variable to hold the element that was clicked on from event.target
     const clickedElement = event.target;
-	// get the src attribute from that element and 'split' it on the "-"
+	// get the src attribute from that element and 'split' it on the "_"
     let imageSource = clickedElement.src;
-    let parts = imageSource.split("-");
+    let parts = imageSource.split("_");
 	// construct the new image file name by adding "-full.jpeg" to the first part of the array from the previous step
     let fullImage = parts[0] + "-full.jpeg";
     let altText = clickedElement.alt;
