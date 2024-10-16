@@ -64,9 +64,9 @@ function viewHandler(event) {
     const clickedElement = event.target;
 	// get the src attribute from that element and 'split' it on the "_"
     let imageSource = clickedElement.src;
-    let parts = imageSource.split("_");
+    let parts = imageSource.split("$");
 	// construct the new image file name by adding "_full.jpeg" to the first part of the array from the previous step
-    let fullImage = parts[0] + "_full.jpeg";
+    let fullImage = parts[0] + "$full.jpeg";
     let altText = clickedElement.alt;
 
 	// insert the viewerTemplate into the top of the body element
