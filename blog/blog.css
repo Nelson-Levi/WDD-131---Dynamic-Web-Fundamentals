@@ -5,10 +5,115 @@
   --text-dark: #473144;
   --text-light: #ebebeb;
   --primary-font: Helvetica, Arial sans-serif;
-  --secondary-font: Lora, Impact, san-serif;
+  --secondary-font: Lora, Impact, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
     color: var(--text-dark);
 }
 
+nav a, h2 {
+    color: var(--secondary-color);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: var(--secondary-font);
+}
+
+p, nav a {
+    font-family: var(--primary-font)
+}
+
+.readmore {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 10px;
+    padding-right: 200px;
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+nav a {
+    padding: 1% 0 1% 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.book-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+.book-container aside ul {
+    list-style-type: none;
+}
+
+.book-container aside ul li {
+    margin-right: 20px;
+}
+
+.book-container aside {
+    border-right: 2px solid var(--primary-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.main-book {
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+
+.filters {
+    border: 2px solid var(--primary-color);
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 20%;
+}
+
+.skiptocontent a {
+	position: absolute;/* set the element to absolute positioning */
+	top: -40px;/* move it off screen */
+	left: 0;/* Make sure it will be on the left edge of the screen */
+	background-color: var(--primary-color);/* Change the background and color to something that stands out */
+    color: var(--text-dark);
+}
+.skiptocontent a:focus {
+	/* Move it back on when focused */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
