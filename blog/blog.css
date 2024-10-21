@@ -58,7 +58,7 @@ nav a {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 4fr 1fr;
     gap: 20px;
     padding: 20px;
 }
@@ -82,15 +82,24 @@ main {
 }
 
 img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     margin-bottom: 10px;
 }
 
 .main-book {
-    margin: 0;
-    display: block;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-book h2, p {
+    align-self: flex-start;
+    padding-left: 2%;
+}
+
+.main-book h2 {
+    font-size: 2em;
 }
 
 
@@ -99,7 +108,7 @@ img {
     max-width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    max-width: 20%;
+    margin-right: 20%;
 }
 
 .skiptocontent a {
