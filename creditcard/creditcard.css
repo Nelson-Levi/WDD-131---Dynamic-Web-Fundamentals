@@ -1,0 +1,63 @@
+
+body {
+  margin: 5%;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.card-front, .card-back {
+    background-color: lightgray;
+}
+
+.card-front {
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#total {
+    grid-column: 1;
+}
+
+.card-image {
+    grid-column: 2;
+    justify-self: end;
+}
+
+.cardnumber-container {
+    width: 100%;
+    grid-column: 1 / 3;
+}
+
+#card-number {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cardholder-container {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+
+
+
+.card-back {
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 2%;
+}
+
+.stripe {
+    background-color: black;
+    height: 50px;
+}

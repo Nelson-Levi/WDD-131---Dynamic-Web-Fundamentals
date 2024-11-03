@@ -29,7 +29,7 @@ function getGrades(inputSelector) {
     // convert the letter grades to gpa points
     const gradePoints = grades.map((grade) => lookupGrade(grade))
     // calculates the GPA
-    const gpa = gradePoints.reduce((total, number) => total + num)
+    const gpa = gradePoints.reduce((total, number) => total + number)
     // return the GPA
     return gpa.toFixed(2)
   }

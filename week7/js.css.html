@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: #4f4faf;
+            color: white;
+            padding: 8px 10px;
+            border-radius: 5px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            transition: ease all 1s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #6868c3;
+        }
+
+    </style>
+</head>
+<body>
+    <button>Click Me</button>
+    <script>
+        const button = document.querySelector('button');
+        let counter = 0;
+
+        setInterval(() => {
+            if (counter > 500) {
+                isReverse = true;
+            } else if (counter < 0) {
+                isReverse = false;
+            }
+            
+            button.style.marginLeft = counter++ + "px";
+        }, 1);
+    </script>
+</body>
+</html>
