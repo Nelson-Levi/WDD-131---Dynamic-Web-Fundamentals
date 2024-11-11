@@ -1,3 +1,5 @@
+import successTemplate from "./template.mjs";
+
 // When the page loads, set the current number of participants equal to one. I have to make a variable for this.
 
 let currentParticipants = 1;
@@ -107,8 +109,4 @@ function submitForm(event) {
         numberOfParticipants: numberOfParticipants,
         totalFees: total
     });
-}
-
-function successTemplate(info) {
-    return `<h2>Thank you ${info.adultName} for registering. You have registered ${info.numberOfParticipants} and owe $${info.totalFees.toFixed(2)} in fees.</h2>`
 }
