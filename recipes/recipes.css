@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Patrick+Hand&display=swap");
+:root {
+--primary-color: #ab1be0;
+--secondary-color: #59c3c3;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: "Patrick Hand";
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+}
+
+h2 {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color)
+}
+
+p, span, a {
+    font-family: var(--primary-font);
+}
+
+header img {
+    height: 75px;
+}
+
+.title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.search {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#searchbar{
+    height: 30px;
+    width: 90%;
+    border: 0;
+}
+
+#submit {
+    height: 30px;
+    align-self: center;
+    padding-left: 1%;
+    border-left: 1px solid black;
+}
+
+.search {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 3%
+}
+
+.recipe-container {
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2%;
+}
+
+.tag {
+    border: 1px solid black;
+    padding: 3%;
+    display: inline;
+}
+
+.all-tags {
+    margin-top: 10%;
+}
+
+.description {
+    display: none;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1em;
+    flex-wrap: wrap;
+    padding-top: 1%;
+}
+
+.social img {
+    width: 50px;
+}
+
+#flaticon-link {
+    font-size: 0.6em;
+    width: 100%;
+    text-align: center;
+    color: var(--secondary-color);
+    padding-top: 1%;
+}
+
+@media (min-width: 600px) {
+    .recipe-container {
+        flex-direction: row;
+    }
+    .recipe-container img {
+        width: 70%;
+        padding-right: 5%;
+    }
+    .description {
+        display: block;
+    }
+    .social {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    #flaticon-link {
+        width: auto;
+        align-self: center;
+    }
+    .all-tags {
+        margin-top: 4%;
+    }
+}
+
+@media (min-width: 960px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
