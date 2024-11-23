@@ -8,6 +8,10 @@
 --secondary-font: "Patrick Hand";
 }
 
+h2 a {
+    all: unset;
+}
+
 img {
     max-width: 100%;
 }
@@ -18,10 +22,11 @@ h1 {
 
 h2 {
     font-family: var(--secondary-font);
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    text-transform: uppercase;
 }
 
-p, span, a {
+p, span, a, li{
     font-family: var(--primary-font);
 }
 
@@ -76,14 +81,22 @@ hr {
     margin-bottom: 2%;
 }
 
-.tag {
+ul {
+    padding-left: 0;
+}
+
+ul li {
     border: 1px solid black;
     padding: 3%;
-    display: inline;
+    display: inline-block;
 }
 
 .all-tags {
     margin-top: 10%;
+}
+
+.tag {
+    margin: 1%;
 }
 
 .description {
@@ -116,8 +129,8 @@ hr {
         flex-direction: row;
     }
     .recipe-container img {
-        width: 70%;
         padding-right: 5%;
+        width: 70%;
     }
     .description {
         display: block;
