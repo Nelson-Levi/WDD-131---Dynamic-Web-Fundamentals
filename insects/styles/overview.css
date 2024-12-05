@@ -23,9 +23,13 @@
   --nav-hover-background-color: var(--primary-color);
 }
 
+body, html {
+    height: 100%;
+}
+
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: var(--accent2-color);
     font-family: var(--heading-font);
 }
@@ -36,10 +40,12 @@ header img {
     margin: 10%;
     height: auto;
     justify-self: center;
+    margin-left: 100%;
 }
 
 nav {
     align-self: center;
+    margin-right: 9%;
 }
 
 nav a {
@@ -54,6 +60,7 @@ header nav a:hover {
 }
 
 footer {
+    margin-top: 5%;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--accent2-color);
@@ -75,95 +82,89 @@ footer a, footer p {
     font-size: 1.2em;
 }
 
+.hero {
+    background-image: url("/insects/images/hero-images/american-lady-butterfly-hero.jpg");
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-message {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--accent1-color);
+}
+
+.hero-title {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    margin-left: 2%;
+    font-family: var(--heading-font);
+}
+
+/* #hero-img {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    z-index: -1;
+} */
+
+.insect-card {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    padding-bottom: 4%;
+    border-bottom: 2px solid black;
+}
+
+.insect-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.insect-card p span.title {
+    font-family: var(--heading-font);
+    font-weight: bold;
+}
+
+.insect-card p span.scientific {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.insect-text {
+    text-align: center;
+}
+
 body {
     background-color: var(--accent1-color);
     font-family: var(--paragraph-font);
 }
 
-main {
-    align-items: center;
-    text-align: center;
-}
-
-section {
-    padding: 2%;
-}
-
-section img {
-    border: solid 5px #78A1BB;
-    max-width: 400px;
-}
-
-.picture-gallery {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.picture-gallery img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    
-}
-
-.img-container {
-    margin: 1%;
-    position: relative;
-    animation: fadeIn 1s;
-    margin: auto;
-    width: 50%;
-
-}
-
-.overlay {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1;
-    width: 119px;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .img-container:hover .overlay {
-    opacity: 1;
-  } 
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-@media (min-width: 100px) {
-    .picture-gallery {
+@media (min-width: 700px) {
+    main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 3%;
-        margin-bottom: 60%;
+        margin: 5%;
+    }
+    .insect-card {
+        border-right: 2px solid black;
+        border-bottom: none;
+    }
+    .insect-text {
+        padding: 5%;
+        margin-left: 10%;
+    }
+    footer {
+        margin-top: 0%;
     }
 }
-
-@media (min-width: 600px) {
-    .picture-gallery {
-        margin-bottom: 50%;
-    }
-}
-
-@media (min-width: 700px) {
-    .picture-gallery {
-      grid-template-columns: 1fr 1fr 1fr;
-      margin-bottom: 12%;
-    }
-  }
-  
-  @media (min-width: 1000px) {
-    .picture-gallery {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      margin-bottom: 2%;
-    }
-  }

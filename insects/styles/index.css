@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Patrick+Hand&display=swap");
+
+:root {
+  --primary-color: #2e8459;
+  --secondary-color: #78a1bb;
+  --accent1-color: #ebf5ee;
+  --accent2-color: #685a51;
+
+  --heading-font: "Fugaz One", Helvetica, sans-serif;
+  --paragraph-font: Montserrat, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: var(
+    --primary-color
+  ); /* headlines on a white background */
+  --headline-color-on-color: white; /* headlines on a colored background */
+  --paragraph-color-on-white: var(
+    --primary-color
+  ); /* paragraph text on a white background */
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */
+  --paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--accent1-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: var(--primary-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--accent2-color);
+  font-family: var(--heading-font);
+}
+
+header img {
+  max-width: 75px;
+  border-radius: 80%;
+  margin: 10%;
+  height: auto;
+  justify-self: center;
+  margin-left: 100%;
+}
+
+nav {
+  align-self: center;
+  margin-right: 9%;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--accent1-color);
+  font-size: 1.2em;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--accent2-color);
+  font-family: var(--heading-font);
+}
+
+footer a {
+  align-self: center;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a,
+footer p {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--accent1-color);
+  font-size: 1.2em;
+}
+
+body {
+  background-color: var(--accent1-color);
+  font-family: var(--paragraph-font);
+}
+
+main {
+  align-items: center;
+  text-align: center;
+}
+
+section {
+  padding: 2%;
+}
+
+section img {
+  border: solid 5px #78a1bb;
+  max-width: 400px;
+}
+
+.picture-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture-gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.img-container {
+  margin: 1%;
+  position: relative;
+  animation: fadeIn 1s;
+  margin: auto;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 119px;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 100px) {
+  .picture-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4%;
+    margin-bottom: 60%;
+  }
+}
+
+@media (min-width: 600px) {
+  .picture-gallery {
+    margin-bottom: 50%;
+  }
+}
+
+@media (min-width: 700px) {
+  .picture-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 12%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .picture-gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 2%;
+  }
+}
