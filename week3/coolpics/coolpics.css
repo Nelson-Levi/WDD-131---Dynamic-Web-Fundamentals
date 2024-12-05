@@ -69,6 +69,7 @@ footer p {
 main {
   align-items: center;
   text-align: center;
+  margin: 5%;
 }
 
 body {
@@ -162,8 +163,4 @@ figure {
   nav a {
     display: inline;
   }
-
-
-
-
 }

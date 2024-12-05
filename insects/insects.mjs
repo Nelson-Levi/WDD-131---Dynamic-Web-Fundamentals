@@ -7,7 +7,9 @@ const insects = [
         lifespan: "14-28 days",
         size: "1.75 to 2 inches",
         heroImage: "./images/hero-images/american-lady-butterfly-hero.jpg",
-        iconImage: "./images/icon-images/american-lady-butterfly-icon.jpeg"
+        iconImage: "./images/icon-images/american-lady-butterfly-icon.jpeg",
+        homeImage: "./images/home-images/american-lady-butterfly.jpeg",
+        altText: "Image of an American Lady Butterfly"
     },
     {
         name: "Bee Fly",
@@ -17,7 +19,9 @@ const insects = [
         lifespan: "Varies, typically a few weeks",
         size: "0.5 to 1 inch",
         heroImage: "./images/hero-images/bee-fly-hero.jpeg",
-        iconImage: "./images/icon-images/bee-fly-icon.jpg"
+        iconImage: "./images/icon-images/bee-fly-icon.jpg",
+        homeImage: "./images/home-images/bee-fly.jpeg",
+        altText: "Image of a Bee Fly"
     },
     {
         name: "Black Blister Beetle",
@@ -27,7 +31,9 @@ const insects = [
         lifespan: "Varies, typically 1 year",
         size: "0.5 to 1 inch",
         heroImage: "./images/hero-images/black-blister-beetle-hero.jpg",
-        iconImage: "./images/icon-images/black-blister-beetle-icon.jpg"
+        iconImage: "./images/icon-images/black-blister-beetle-icon.jpg",
+        homeImage: "./images/home-images/black-blister-beetle.jpg",
+        altText: "Image of an Black Blister Beetle"
     },
     {
         name: "Blackberry Looper",
@@ -37,7 +43,9 @@ const insects = [
         lifespan: "Varies, typically a few weeks",
         size: "1.5 to 2 inches",
         heroImage: "./images/hero-images/blackberry-looper-hero.jpeg",
-        iconImage: "./images/icon-images/blackberry-looper-icon.jpeg"
+        iconImage: "./images/icon-images/blackberry-looper-icon.jpeg",
+        homeImage: "./images/home-images/blackberry-looper.jpg",
+        altText: "Image of a Blackberry Looper"
     },
     {
         name: "Carolina Locust",
@@ -47,7 +55,9 @@ const insects = [
         lifespan: "1-2 years",
         size: "2.5 to 3 inches",
         heroImage: "./images/hero-images/carolina-locust-hero.webp",
-        iconImage: "./images/icon-images/carolina-locust-icon.jpeg"
+        iconImage: "./images/icon-images/carolina-locust-icon.jpeg",
+        homeImage: "./images/home-images/carolina-locust.jpeg",
+        altText: "Image of a Carolina Locust"
     },
     {
         name: "Colorado Potato Beetle",
@@ -57,7 +67,9 @@ const insects = [
         lifespan: "1 year",
         size: "0.5 to 0.75 inches",
         heroImage: "./images/hero-images/colorado-potato-beetle.jpeg",
-        iconImage: "./images/icon-images/colorado-potato-beetle-icon.jpeg"
+        iconImage: "./images/icon-images/colorado-potato-beetle-icon.jpeg",
+        homeImage: "./images/home-images/colorado-potato-beetle.jpeg",
+        altText: "Image of a Colorado Potato Beetle"
     },
     {
         name: "Crane Fly",
@@ -67,7 +79,9 @@ const insects = [
         lifespan: "Adult life is short, 10-15 days; larvae can live for several months",
         size: "1 to 2 inches",
         heroImage: "./images/hero-images/crane-fly-hero.jpeg",
-        iconImage: "./images/icon-images/crane-fly-icon.jpg"
+        iconImage: "./images/icon-images/crane-fly-icon.jpg",
+        homeImage: "./images/home-images/crane-fly.jpeg",
+        altText: "Image of a Crane Fly"
     },
     {
         name: "Emerald Ash Borer",
@@ -77,7 +91,9 @@ const insects = [
         lifespan: "1-2 years",
         size: "0.5 inches",
         heroImage: "./images/hero-images/emerald-ash-borer-hero.jpeg",
-        iconImage: "./images/icon-images/emerald-ash-borer-icon.jpeg"
+        iconImage: "./images/icon-images/emerald-ash-borer-icon.jpeg",
+        homeImage: "./images/home-images/emerald-ash-borer.jpg",
+        altText: "Image of an Emerald Ash Borer"
     },
     {
         name: "Galium Sphinx Moth",
@@ -87,7 +103,9 @@ const insects = [
         lifespan: "2-3 weeks as adult, longer as larvae",
         size: "2.5 to 3 inches",
         heroImage: "./images/hero-images/galium-sphinx-moth-hero.jpeg",
-        iconImage: "./images/icon-images/galium-sphinx-moth-icon.jpg"
+        iconImage: "./images/icon-images/galium-sphinx-moth-icon.jpg",
+        homeImage: "./images/home-images/galium-sphinx-moth.jpg",
+        altText: "Image of a Galium Sphinx Moth"
     },
     {
         name: "Green Lacewing",
@@ -97,7 +115,9 @@ const insects = [
         lifespan: "1-2 months",
         size: "0.5 to 1 inch",
         heroImage: "./images/hero-images/green-lacewing-hero.jpeg",
-        iconImage: "./images/icon-images/green-lacewing-icon.jpeg"
+        iconImage: "./images/icon-images/green-lacewing-icon.jpeg",
+        homeImage: "./images/home-images/green-lacewing.jpg",
+        altText: "Image of a Green Lacewing"
     },
     {
         name: "Io Moth",
@@ -107,7 +127,9 @@ const insects = [
         lifespan: "1-2 weeks as adults, several months as caterpillars",
         size: "2.5 to 4 inches",
         heroImage: "./images/hero-images/io-moth-hero.jpg",
-        iconImage: "./images/icon-images/io-moth-icon.jpeg"
+        iconImage: "./images/icon-images/io-moth-icon.jpeg",
+        homeImage: "./images/home-images/io-moth.jpg",
+        altText: "Image of an Io Moth"
     },
     {
         name: "Katydid",
@@ -117,7 +139,9 @@ const insects = [
         lifespan: "1 year",
         size: "2 to 4 inches",
         heroImage: "./images/hero-images/katydid-hero.jpeg",
-        iconImage: "./images/icon-images/katydid-icon.jpeg"
+        iconImage: "./images/icon-images/katydid-icon.jpeg",
+        homeImage: "./images/home-images/katydid.jpeg",
+        altText: "Image of a Katydid"
     },
     {
         name: "March Brown Mayfly",
@@ -127,7 +151,9 @@ const insects = [
         lifespan: "1 year (nymph stage); adults live only a few days",
         size: "1.5 to 2 inches",
         heroImage: "./images/hero-images/march-brown-mayfly-hero.jpg",
-        iconImage: "./images/icon-images/march-brown-mayfly-icon.jpeg"
+        iconImage: "./images/icon-images/march-brown-mayfly-icon.jpeg",
+        homeImage: "./images/home-images/march-brown-mayfly.jpg",
+        altText: "Image of a March Brown Butterfly"
     },
     {
         name: "Red Cross Shield Bug",
@@ -137,7 +163,9 @@ const insects = [
         lifespan: "1 year",
         size: "0.5 to 1 inch",
         heroImage: "./images/hero-images/red-cross-shield-bug-hero.jpg",
-        iconImage: "./images/icon-images/red-cross-shield-bug-icon.jpeg"
+        iconImage: "./images/icon-images/red-cross-shield-bug-icon.jpeg",
+        homeImage: "./images/home-images/red-cross-shield-bug.jpeg",
+        altText: "Image of a Red Cross Shield Bug"
     },
     {
         name: "Two Striped Grasshopper",
@@ -147,6 +175,10 @@ const insects = [
         lifespan: "1 year",
         size: "2 to 3 inches",
         heroImage: "./images/hero-images/two-striped-grasshopper-hero.jpg",
-        iconImage: "./images/icon-images/two-striped-grasshopper-icon.jpg"
+        iconImage: "./images/icon-images/two-striped-grasshopper-icon.jpg",
+        homeImage: "./images/home-images/two-striped-grasshopper.jpg",
+        altText: "Image of a Two Striped Grasshopper"
     }
 ];
+
+export default insects;
