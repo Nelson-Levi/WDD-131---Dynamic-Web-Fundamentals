@@ -116,6 +116,11 @@ section img {
   animation: fadeIn 1s;
   margin: auto;
   width: 50%;
+  transition: transform .2s;
+}
+
+.img-container:hover {
+    transform: scale(1.05);
 }
 
 .overlay {
@@ -131,6 +136,7 @@ section img {
   font-size: 20px;
   padding: 20px;
   text-align: center;
+  font-family: var(--heading-font);
 }
 
 .img-container:hover .overlay {
@@ -151,26 +157,44 @@ section img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 4%;
-    margin-bottom: 60%;
+  }
+  footer {
+    margin-top: 110%;
   }
 }
 
+@media (min-width: 400px) {
+    footer {
+        margin-top: 100%;
+    }
+}
+
+@media (min-width: 500px) {
+    footer {
+        margin-top: 70%;
+    }
+}
+
 @media (min-width: 600px) {
-  .picture-gallery {
-    margin-bottom: 50%;
+  footer {
+    margin-top: 60%;
   }
 }
 
 @media (min-width: 700px) {
   .picture-gallery {
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 12%;
+  }
+  footer {
+    margin-top: 20%;
   }
 }
 
 @media (min-width: 1000px) {
   .picture-gallery {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-bottom: 2%;
+  }
+  footer {
+    margin-top: 5%;
   }
 }

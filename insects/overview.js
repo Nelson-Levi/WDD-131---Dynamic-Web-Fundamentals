@@ -3,10 +3,17 @@ import insects from "./insects.mjs";
 const mainElement = document.querySelector("main");
 const heroElement = document.querySelector(".hero-message");
 
-const insectID = 12;
+function getQueryParameters() {
+    const parameters = new URLSearchParams(window.location.search);
+    return {
+        id: parameters.get('id'),
+    };
+}
 
-function CreateHero(insects) {
-    const insect = insects[insectID];
+const queryParameter = getQueryParameters();
+const insectID = parseInt(queryParameter.id, 10)
+
+function createHero(insect) {
     const newHero = document.createElement("h1")
     newHero.classList.add("hero-title")
 
@@ -17,8 +24,7 @@ function CreateHero(insects) {
     heroElement.appendChild(newHero);
 }
 
-function CreateMain(insects) {
-    const insect = insects[insectID];
+function createMain(insect) {
     const newDiv = document.createElement("div");
     newDiv.classList.add("insect-container");
 
@@ -53,5 +59,14 @@ function CreateMain(insects) {
     mainElement.appendChild(newDiv);
 }
 
-CreateHero(insects);
-CreateMain(insects);
+if (!isNaN(insectID) && insectID >= 0 && insectID < insects.length) {
+    const selectedInsect = insects[insectID];
+    createHero(selectedInsect);
+    createMain(selectedInsect);
+
+} else {
+    console.log(insectID)
+    console.error("Sorry, you somehow selected an invalid insect!");
+}
+
+

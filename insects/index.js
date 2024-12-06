@@ -21,8 +21,10 @@ async function DisplayInsects(insects) {
     newDiv.classList.add("img-container");
 
     newDiv.innerHTML = `
+    <a href="overview.html?id=${insect.id}" target="_blank">
         <img src="${insect.homeImage}" alt="${insect.altText}">
         <div class="overlay">${insect.name}</div>
+    </a>
         `;
     imagesElement.appendChild(newDiv);
 
