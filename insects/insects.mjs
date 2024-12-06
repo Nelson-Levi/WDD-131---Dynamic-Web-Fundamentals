@@ -195,7 +195,7 @@ const insects = [
     diet: "Leaves and plants",
     lifespan: "1 year",
     size: "2 to 4 inches",
-    heroImage: "./images/hero-images/katydid-hero.JPG",
+    heroImage: "./images/hero-images/katydid-hero.jpg",
     iconImage: "./images/icon-images/katydid-icon.jpeg",
     homeImage: "./images/home-images/katydid.jpeg",
     altText: "Image of a Katydid",
