@@ -11,7 +11,7 @@ function getQueryParameters() {
 }
 
 const queryParameter = getQueryParameters();
-const insectID = parseInt(queryParameter.id, 10)
+const insectID = parseInt(queryParameter.id || -1, 10)
 
 function createHero(insect) {
     const newHero = document.createElement("h1")
@@ -65,8 +65,12 @@ if (!isNaN(insectID) && insectID >= 0 && insectID < insects.length) {
     createMain(selectedInsect);
 
 } else {
-    console.log(insectID)
-    console.error("Sorry, you somehow selected an invalid insect!");
+    console.error(`Sorry, you somehow selected an invalid insect ID (${insectID}). `);
+
+    const errorMessage = document.createElement("h1");
+    errorMessage.classList.add("hero-title")
+    errorMessage.innerHTML = `Sorry, you somehow selected an invalid insect ID (${insectID}).`;
+    heroElement.appendChild(errorMessage);
 }
 
 
