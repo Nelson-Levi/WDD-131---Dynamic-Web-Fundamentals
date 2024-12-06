@@ -168,11 +168,17 @@ section img {
     grid-template-columns: 1fr 1fr;
     row-gap: 20px
   }
+  main {
+    min-height: 1800px;
+}
 }
 
 @media (min-width: 700px) {
   .picture-gallery {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  main {
+    min-height: 1350px;
   }
 }
 

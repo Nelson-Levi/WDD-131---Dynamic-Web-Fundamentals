@@ -163,7 +163,7 @@ const insects = [
     size: "0.5 to 1 inch",
     heroImage: "./images/hero-images/green-lacewing-hero.jpg",
     iconImage: "./images/icon-images/green-lacewing-icon.jpeg",
-    homeImage: "./images/home-images/green-lacewing.jpg",
+    homeImage: "./images/home-images/green-lacewing.webp",
     altText: "Image of a Green Lacewing",
     about:
       "The green lacewing (Chrysopa viridissima) is a delicate insect known for its translucent, pale green wings that have a net-like pattern, making it easily identifiable. It is commonly found in gardens, forests, and agricultural areas, where it plays a beneficial role in controlling pest populations. Both the adult lacewing and its larvae are predators, feeding on a wide variety of soft-bodied insects such as aphids, mites, and whiteflies. These insects are highly regarded by gardeners and farmers for their natural pest control abilities.",
