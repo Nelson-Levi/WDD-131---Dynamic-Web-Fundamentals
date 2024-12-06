@@ -1,5 +1,6 @@
 const insects = [
   {
+    // 0
     name: "American Lady Butterfly",
     scientificName: "Vanessa virginiensis",
     family: "Nymphalidae",
@@ -14,6 +15,7 @@ const insects = [
     lifeCycle: "The life cycle of the American Lady butterfly begins with the female laying eggs singly on the leaves of host plants such as everlasting and cudweed. The eggs hatch into spiny, black-and-yellow caterpillars that feed on the host plants while building protective silk nests. After growing through several instars, the caterpillars form a chrysalis Inside the chrysalis, metamorphosis occurs, transforming the caterpillar into an adult butterfly with vivid orange and black wings."
   },
   {
+    // 1
     name: "Bee Fly",
     scientificName: "Systoechus spp.",
     family: "Bombyliidae",
@@ -28,6 +30,7 @@ const insects = [
     lifeCycle: "The life cycle of the Systoechus bee fly begins with females laying eggs near the nests or burrows of host insects, such as solitary bees or wasps. Once hatched, the larvae seek out and infiltrate the host's nest to feed on the eggs, larvae, or provisions stored by the host. This parasitic relationship is crucial for their development, as it provides the necessary resources for growth. After completing their larval stage, they pupate and emerge as adult bee flies, ready to mate and continue the cycle."
   },
   {
+    // 2
     name: "Black Blister Beetle",
     scientificName: "Epicauta vittata",
     family: "Meloidae",
@@ -42,13 +45,14 @@ const insects = [
     lifeCycle: "The life cycle of the black blister beetle begins with females laying eggs in the soil, often near grasshopper egg pods, which the larvae will parasitize. Upon hatching, the larvae (triungulins) actively seek out and feed on grasshopper eggs, their primary food source. After consuming the eggs, the larvae undergo multiple stages of development before pupating in the soil. The adult beetles emerge from the pupae, completing their transformation and beginning the search for mates and food."
   },
   {
+    // 3
     name: "Blackberry Looper",
     scientificName: "Cyllocerea venusta",
     family: "Geometridae",
     diet: "Blackberries and other plants",
     lifespan: "Varies, typically a few weeks",
     size: "1.5 to 2 inches",
-    heroImage: "./images/hero-images/blackberry-looper-hero.jpeg",
+    heroImage: "./images/hero-images/blackberry-looper-hero.jpg",
     iconImage: "./images/icon-images/blackberry-looper-icon.jpeg",
     homeImage: "./images/home-images/blackberry-looper.jpg",
     altText: "Image of a Blackberry Looper",
@@ -56,6 +60,7 @@ const insects = [
     lifeCycle: "The life cycle of the blackberry looper begins with the moth laying eggs on the leaves of host plants such as blackberry bushes. After hatching, the caterpillars feed on the leaves, using their distinctive inching motion to move between feeding sites. Once fully grown, the caterpillars pupate in the soil or within leaf litter, transforming into adult moths. These moths emerge to mate and lay eggs, completing the cycle."
   },
   {
+    // 4
     name: "Carolina Locust",
     scientificName: "Dissosteira carolina",
     family: "Acrididae",
@@ -63,20 +68,21 @@ const insects = [
     lifespan: "1-2 years",
     size: "2.5 to 3 inches",
     heroImage: "./images/hero-images/carolina-locust-hero.webp",
-    iconImage: "./images/icon-images/carolina-locust-icon.jpeg",
+    iconImage: "./images/icon-images/carolina-locust-icon.jpg",
     homeImage: "./images/home-images/carolina-locust.jpeg",
     altText: "Image of a Carolina Locust",
     about: "The Carolina locust (Dissosteira carolina) is a grasshopper species known for its camouflaged appearance, with mottled brown and gray wings that help it blend into its surroundings. It is commonly found in dry, open areas like fields, roadsides, and gravelly habitats across North America. When disturbed, it displays striking black hindwings edged with pale yellow as it flies in short bursts. This locust feeds primarily on grasses and weeds, making it an important grazer in its ecosystem.",
     lifeCycle: "The life cycle of the Carolina locust begins when females deposit eggs in sandy or loose soil in late summer or fall. The eggs overwinter and hatch in spring, producing nymphs that go through several molts as they grow. These nymphs resemble miniature adults but lack fully developed wings until their final molt. Once mature, adults mate, and the females lay eggs, continuing the cycle."
   },
   {
+    // 5
     name: "Colorado Potato Beetle",
     scientificName: "Leptinotarsa decemlineata",
     family: "Chrysomelidae",
     diet: "Potato plants",
     lifespan: "1 year",
     size: "0.5 to 0.75 inches",
-    heroImage: "./images/hero-images/colorado-potato-beetle.jpeg",
+    heroImage: "./images/hero-images/colorado-potato-beetle-hero.jpeg",
     iconImage: "./images/icon-images/colorado-potato-beetle-icon.jpeg",
     homeImage: "./images/home-images/colorado-potato-beetle.jpeg",
     altText: "Image of a Colorado Potato Beetle",
@@ -84,6 +90,7 @@ const insects = [
     lifeCycle: "The life cycle of the Colorado potato beetle begins when females lay clusters of bright orange eggs on the undersides of host plant leaves. The eggs hatch into larvae, which feed voraciously on the leaves, causing extensive defoliation. After several molts, the larvae drop to the soil to pupate, emerging later as adult beetles. Adults overwinter in the soil, becoming active again in spring to restart the cycle."
   },
   {
+    // 6
     name: "Crane Fly",
     scientificName: "Tipulidae spp.",
     family: "Tipulidae",
@@ -91,7 +98,7 @@ const insects = [
     lifespan:
       "Adult life is short, 10-15 days; larvae can live for several months",
     size: "1 to 2 inches",
-    heroImage: "./images/hero-images/crane-fly-hero.jpeg",
+    heroImage: "./images/hero-images/crane-fly-hero.jpg",
     iconImage: "./images/icon-images/crane-fly-icon.jpg",
     homeImage: "./images/home-images/crane-fly.jpeg",
     altText: "Image of a Crane Fly",
@@ -99,13 +106,14 @@ const insects = [
     lifeCycle: "The life cycle of a crane fly begins when females lay eggs in moist soil or water. These eggs hatch into larvae, which are worm-like and thrive in damp environments, feeding on organic matter and plant roots. After several growth stages, the larvae pupate in the soil, undergoing metamorphosis. Adult crane flies emerge from the pupae, mate, and lay eggs, completing the cycle."
   },
   {
+    // 7
     name: "Emerald Ash Borer",
     scientificName: "Agrilus planipennis",
     family: "Buprestidae",
     diet: "Ash trees (larvae feed on the tree's inner bark)",
     lifespan: "1-2 years",
     size: "0.5 inches",
-    heroImage: "./images/hero-images/emerald-ash-borer-hero.jpeg",
+    heroImage: "./images/hero-images/emerald-ash-borer-hero.jpg",
     iconImage: "./images/icon-images/emerald-ash-borer-icon.jpeg",
     homeImage: "./images/home-images/emerald-ash-borer.jpg",
     altText: "Image of an Emerald Ash Borer",
@@ -113,13 +121,14 @@ const insects = [
     lifeCycle: "The life cycle of the emerald ash borer begins when females lay eggs in crevices of ash tree bark. The eggs hatch into larvae, which burrow into the tree and create winding tunnels in the inner bark as they feed. This activity disrupts the tree’s ability to transport water and nutrients, eventually killing it. After overwintering as larvae, they pupate in spring and emerge as adults to restart the cycle."
   },
   {
+    // 8
     name: "Galium Sphinx Moth",
     scientificName: "Hyles gallii",
     family: "Sphingidae",
     diet: "Nectar of night-blooming flowers",
     lifespan: "2-3 weeks as adult, longer as larvae",
     size: "2.5 to 3 inches",
-    heroImage: "./images/hero-images/galium-sphinx-moth-hero.jpeg",
+    heroImage: "./images/hero-images/galium-sphinx-moth-hero.jpg",
     iconImage: "./images/icon-images/galium-sphinx-moth-icon.jpg",
     homeImage: "./images/home-images/galium-sphinx-moth.jpg",
     altText: "Image of a Galium Sphinx Moth",
@@ -127,13 +136,14 @@ const insects = [
     lifeCycle: "The life cycle of the Galium sphinx moth starts with the female laying eggs on the leaves of host plants. The caterpillars, which are typically green or black with distinctive eye spots, emerge and feed voraciously on foliage. After reaching full size, they pupate in the soil or leaf litter, undergoing metamorphosis."
   },
   {
+    // 9
     name: "Green Lacewing",
     scientificName: "Chrysoperla carnea",
     family: "Chrysopidae",
     diet: "Aphids, mites, and other pest insects (both larvae and adults are predators)",
     lifespan: "1-2 months",
     size: "0.5 to 1 inch",
-    heroImage: "./images/hero-images/green-lacewing-hero.jpeg",
+    heroImage: "./images/hero-images/green-lacewing-hero.jpg",
     iconImage: "./images/icon-images/green-lacewing-icon.jpeg",
     homeImage: "./images/home-images/green-lacewing.jpg",
     altText: "Image of a Green Lacewing",
@@ -141,6 +151,7 @@ const insects = [
     lifeCycle: "The life cycle of the green lacewing begins with the female laying clusters of eggs on slender stalks, which help protect the eggs from predators. The eggs hatch into larvae, which are voracious predators, feeding on pests like aphids and other small insects. After several molts, the larvae pupate in a cocoon, which may be attached to leaves or hidden in debris. Adult lacewings emerge from the pupae, mate, and the females lay new eggs, restarting the cycle."
   },
   {
+    // 10
     name: "Io Moth",
     scientificName: "Automeris io",
     family: "Saturniidae",
@@ -155,13 +166,14 @@ const insects = [
     lifeCycle: "The life cycle of the Io moth begins when the female lays eggs on the leaves of host plants, typically in the summer. The larvae hatch and begin feeding, growing quickly through several molts, and are often brightly colored with spiny projections. Once fully grown, the larvae pupate, typically in leaf litter or soil, undergoing a metamorphosis into adults. Adult moths emerge, often after several weeks, and are most active at night."
   },
   {
+    // 11
     name: "Katydid",
     scientificName: "Tettigoniidae spp.",
     family: "Tettigoniidae",
     diet: "Leaves and plants",
     lifespan: "1 year",
     size: "2 to 4 inches",
-    heroImage: "./images/hero-images/katydid-hero.jpeg",
+    heroImage: "./images/hero-images/katydid-hero.JPG",
     iconImage: "./images/icon-images/katydid-icon.jpeg",
     homeImage: "./images/home-images/katydid.jpeg",
     altText: "Image of a Katydid",
@@ -169,6 +181,7 @@ const insects = [
     lifeCycle: "The life cycle of the katydid begins with the female laying eggs in plant stems, leaves, or soil. The eggs hatch into nymphs, which closely resemble miniature adults but lack wings and undergo several molts as they grow. As they mature, katydids develop wings and reproductive organs, allowing them to join the adult population and reproduce. The adult females lay eggs, and the cycle starts over."
   },
   {
+    // 12
     name: "March Brown Mayfly",
     scientificName: "Rhithrogena morrisoni",
     family: "Heptageniidae",
@@ -183,6 +196,7 @@ const insects = [
     lifeCycle: "The life cycle of the March brown mayfly begins when females lay their eggs in the water, where they hatch into nymphs. The nymphs live in the water, undergoing several molts as they grow and mature, sometimes for up to a year or more, depending on the environmental conditions. Once they are fully grown, the nymphs emerge from the water, transforming into winged adults in a process called emergence. The adult mayflies live for only a few days, during which time they mate, lay eggs, and then die."
   },
   {
+    // 13
     name: "Red Cross Shield Bug",
     scientificName: "Stenocephalus bicolor",
     family: "Pentatomidae",
@@ -197,6 +211,7 @@ const insects = [
     lifeCycle: "The life cycle of the red cross shield bug begins when the female lays clusters of eggs on the undersides of leaves or stems. The eggs hatch into nymphs, which resemble small, wingless versions of the adults. These nymphs undergo several molts as they grow, gradually developing their characteristic color and shape. As they mature, the nymphs form wings and reach adulthood, ready to mate and start the cycle over."
   },
   {
+    // 14
     name: "Two Striped Grasshopper",
     scientificName: "Melanoplus bivittatus",
     family: "Acrididae",

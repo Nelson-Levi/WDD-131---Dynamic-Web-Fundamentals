@@ -82,8 +82,7 @@ footer a, footer p {
     font-size: 1.2em;
 }
 
-.hero {
-    background-image: url("/insects/images/hero-images/american-lady-butterfly-hero.jpg");
+#hero {
     height: 50%;
     background-attachment: fixed;
     background-position: center;
@@ -103,15 +102,6 @@ footer a, footer p {
     margin-left: 2%;
     font-family: var(--heading-font);
 }
-
-/* #hero-img {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    display: block;
-    z-index: -1;
-} */
 
 .insect-card {
     margin: 5%;
@@ -143,6 +133,11 @@ footer a, footer p {
 
 .insect-text {
     text-align: center;
+    padding: 2%;
+}
+
+.insect-text p {
+    line-height: 1.5em;
 }
 
 body {
@@ -151,7 +146,7 @@ body {
 }
 
 @media (min-width: 700px) {
-    main {
+    .insect-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 5%;
