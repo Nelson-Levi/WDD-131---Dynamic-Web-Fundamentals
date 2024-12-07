@@ -15,7 +15,7 @@ function sleep(ms) {
 }
 
 async function DisplayInsects(insects) {
-  const shuffledInsects = Shuffle(insects);
+  const shuffledInsects = Shuffle(insects).filter(x => x);
   for (const insect of shuffledInsects) {
     const newDiv = document.createElement("div");
     newDiv.classList.add("img-container");

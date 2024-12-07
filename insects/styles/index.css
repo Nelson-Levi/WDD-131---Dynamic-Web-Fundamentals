@@ -186,4 +186,7 @@ section img {
   .picture-gallery {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+  main {
+    min-height: 800px;
+  }
 }

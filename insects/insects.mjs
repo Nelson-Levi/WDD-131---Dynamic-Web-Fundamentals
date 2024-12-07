@@ -283,7 +283,7 @@ const insects = [
     size: "1.5 to 2 inches",
     heroImage: "./images/hero-images/copper-underwing-hero.jpg",
     iconImage: "./images/icon-images/copper-underwing-icon.jpg",
-    homeImage: "./images/home-images/copper-underwing.jpg",
+    homeImage: "./images/home-images/copper-underwing.webp",
     altText: "Image of a Copper Underwing",
     about: 
     "The copper underwing (Amphipyra pyramidoides) is a nocturnal moth named for the coppery coloring of its hindwings. It is often attracted to light sources at night and can be found in wooded areas, gardens, and urban settings. Its larvae feed on various deciduous trees, and the moths play a role in the ecosystem as pollinators. This moth is known for its distinctive wing markings, which help it camouflage during the day when resting on tree bark or leaves. Its presence in both natural and urban environments reflects its adaptability. Despite being primarily nocturnal, the copper underwing can occasionally be spotted during the day when disturbed.",
